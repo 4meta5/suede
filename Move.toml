@@ -1,0 +1,10 @@
+[package]
+name = "suede"
+version = "0.0.0"
+authors = ["4meta5"]
+
+[dependencies]
+Sui = { local = "../sui/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+suede = "0x0"

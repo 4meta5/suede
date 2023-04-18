@@ -1,0 +1,24 @@
+---
+compiled_package_info:
+  package_name: dex-sui
+  address_alias_instantiation:
+    dex_sui: "00000000000000000000000000000000"
+    std: "00000000000000000000000000000001"
+    sui: "00000000000000000000000000000002"
+  source_digest: 9365B457268A04AA6BC547BEAF493A74E01249955004A319BE5A1C458832D0C8
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ~
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - MoveStdlib
+  - Sui
